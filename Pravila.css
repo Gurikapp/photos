@@ -1,0 +1,41 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #242424;
+    height: 100vh;
+    gap: 10%;
+}
+
+h2 {
+    color: white;
+    font-size: 50px;
+    font-family: 'Amatic SC', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    width: 40%;
+    text-align: center;
+    font-family: 'Amatic SC', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+    a {
+        color: #c6bdff;
+        transition: 500ms;
+
+        &:hover {
+            color: #9e8fff;
+        }
+    }
+}
+
+img {
+    width: 20%;
+    pointer-events: none;
+}

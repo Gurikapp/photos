@@ -1,0 +1,40 @@
+section {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    height: 100vh;
+}
+
+.bigLogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 500ms;
+    background-image: url(./assets/images/photos/IMG_0585.JPG);
+    width: 100%;
+    min-height: 100%;
+}
+
+.bigLogoImg {
+    width: 20%;
+    transition: 500ms;   
+    opacity: 0.3;
+}
+
+.bigLogoImg:hover{
+    opacity: 1;
+    width: 40%;
+}
+
+.blackback {
+    display: block;
+    min-height: 10%;
+    width: 100%;
+    background-color: #242424;
+}
+
+.backImg {
+    width: 100%;
+    pointer-events: none;
+}

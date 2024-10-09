@@ -1,0 +1,25 @@
+main{
+    background-color: #242424;
+    height: 600vh;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4%;
+    padding: 10%;
+}
+
+.image {
+    width: 400px;
+    transition: 500ms;
+}
+
+.image:hover {
+    width: 700px;
+}
+
+img {
+    width: 100%;
+    pointer-events: none;
+}

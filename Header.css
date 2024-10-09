@@ -1,0 +1,42 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0% 2%;
+    background-color: rgba(36, 36, 36, 0.63);
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    z-index: 10;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoImg {
+    height: 70px;
+    width: 70px;
+}
+
+.hrefs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.hrefsA {
+    color: #cccccc;
+    transition: 500ms;
+    font-size: 20px;
+    font-family: 'Amatic SC', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.hrefsA:hover {
+    color: #fff;
+}
